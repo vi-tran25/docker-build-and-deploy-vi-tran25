@@ -3,6 +3,7 @@ name: Build and Push to ECR
 on:
   push:
     branches: [main]
+    workflow_dispatch:
 
 env:
   ACCOUNT_ID: "874505351656" # set your aws account id
