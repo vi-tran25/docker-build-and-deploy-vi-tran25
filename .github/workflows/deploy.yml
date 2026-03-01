@@ -33,7 +33,7 @@ jobs:
           docker build -t cs1660-hw2:v1 .
 
           # Tag
-          docker tag cs1660-hw2:v1 874505351656.dkr.ecr.us-east-1.amazonaws.com/cs1660-hw2:v1
-          
+          docker tag cs1660-hw2:v1 874505351656.dkr.ecr.us-east-1.amazonaws.com/cs1660-homework2:v1
+
           # Push
-          docker push 874505351656.dkr.ecr.us-east-1.amazonaws.com/cs1660-hw2:v1
+          docker push 874505351656.dkr.ecr.us-east-1.amazonaws.com/cs1660-homework2:v1
